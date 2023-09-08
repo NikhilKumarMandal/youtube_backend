@@ -1,0 +1,75 @@
+html{
+    height: 100%;
+}
+
+
+.navbar-brand{
+    color: black;
+}
+body{
+    background: url(https://images.pexels.com/photos/2115217/pexels-photo-2115217.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);
+    background-size: cover;
+    background-position: center;
+    font-family: 'Catamaran', sans-serif;
+    
+}
+
+.center{
+    text-align: center;
+    padding: 15%;
+}
+
+h1,p{
+    color:white;
+    
+}
+.row{
+    text-align: center;
+    padding: 15%;
+    color: aliceblue;
+}
+
+
+.element{
+    color: antiquewhite;
+}
+
+.btn-group-lg > .btn, .btn-lg{
+    color: antiquewhite;
+    background-color: chocolate;
+}
+
+@media (max-width:750px) {
+    h1{
+        background-color: aqua;
+        opacity: 0.7;
+        
+    }
+    h2{
+        background-color: aqua;
+        opacity: 0.7;
+    }
+}
+@media(min-width:760px){
+    h1{
+        background-color: skyblue;
+        opacity: 0.8;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

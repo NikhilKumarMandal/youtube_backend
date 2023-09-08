@@ -1,0 +1,16 @@
+Student: !!seq
+ -marks
+ -name
+ -roll_no
+
+cities: [new delhi,mumbai]
+
+#some of the key of the seq will be empty 
+#spare seq
+sparse seq:
+ -hey
+ -how
+ -
+ -Null
+ -sup
+ 

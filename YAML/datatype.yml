@@ -1,0 +1,43 @@
+#String variables
+myself: Nikhil Kumar
+fruit: "apple"
+job: 'swe'
+
+bio: |
+ hey my name nikhil kumar.
+ i am avery nice guy.
+
+# write a single line in mutiple lines
+message: >
+ this will
+ all be 
+ in one single line 
+
+#same as 
+
+number: 5473
+marks: 98.04
+booleanValue:  No # n,N,false,False,FAlSE
+# same for true -> YES,Y,y
+
+
+#specify the type
+zero: !!int 0
+postiveNum: !!int 45
+negativeNum: !!int -45
+binaryNum: !!int 0b11001
+octalNum: !!int 06574
+hexa: !!int 0x45
+commaValue: !!int +540_000 #540,000
+exponential numbers: 6.023E56
+
+#floating point numbers
+markas: !!float 56.98
+infinte: !!float .inf
+not a num: .nan
+
+#null
+surname: !!null NULL # or null NUll
+
+#date and time
+date: !!timestamp 2002-12-4

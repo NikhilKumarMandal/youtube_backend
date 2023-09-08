@@ -1,0 +1,44 @@
+#main {
+    background-color: #111;
+    position: relative;
+    height: 100%;
+    width: 100%
+    
+}
+
+.hii{
+    display: flex;
+    text-align: center;
+    justify-content: flex-start;
+    position: relative;
+    border-bottom:  2px solid #fff;
+    height: 120px;
+    width: 100%
+    
+    
+}
+
+body{
+    color: #fff;
+}
+
+.hii h1 {
+    font-size: 5vw;
+    position: relative;
+    z-index: 9;
+    mix-blend-mode:difference ;
+}
+
+.hii img {
+    height: 120px;
+    width: 120px;
+    object-fit: cover;
+    object-position:center;
+    border-radius: 50%;
+    position:absolute;
+    transform: translate(-50%,-50%);
+    opacity: 0;
+    transition: all linear 0.3s;
+    
+    
+}

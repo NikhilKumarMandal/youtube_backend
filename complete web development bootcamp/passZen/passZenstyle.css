@@ -1,0 +1,41 @@
+body{
+    background: #FC466B;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #3F5EFB, #FC466B);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #3F5EFB, #FC466B); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    height:600px
+}
+.container{
+    width: 600px;
+    margin: 0 auto;
+    margin-top: 100px;
+    font-size: 3em;
+}
+
+.out{
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+.myBtn{
+    padding:  20px 20px;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+.pass{
+   width: 400px;
+   float: left;
+   font-size: 30px;
+   color: #fff;
+   margin-left: 0;
+   padding: 20px;
+   background-color: #f63;
+}
+
+.in{
+    margin: 0;
+
+    float: right;
+    text-align: center;
+    background-color: #fff;
+    color: #f63;
+}

@@ -1,0 +1,13 @@
+"apple" : "I am a red fruit"
+1: "This is nikhil's roll number"
+---
+#lists
+ -apple
+ -mango 
+ -Apple
+---
+cities:
+ -new delhi
+ -mumbai
+ -gujrat
+...

@@ -1,0 +1,27 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+div{
+    height: 700px;
+    /* background-color: grey; */
+    margin: 0;
+    padding: 0;
+    
+}
+
+.blue{
+    background-color: skyblue;
+}
+
+h1{
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+p{
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}

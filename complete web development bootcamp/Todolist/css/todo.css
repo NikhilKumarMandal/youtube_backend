@@ -1,0 +1,72 @@
+ *{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    border: none;
+    box-sizing: border-box;
+ }
+
+ body{
+    min-height: 100%;
+    background: radial-gradient(white,gray);
+    font-family: 'Nanum Gothic', sans-serif;
+ }
+
+ .Wrapper{
+    border: 8px solid black;
+    width: 300px;
+    height: 350px;
+    margin: 50px auto;
+    border-radius: 20px;
+    background: white;
+ }
+
+ .header{
+    width: 100%;
+    text-align: center;
+    height: 50px;
+    background: linear-gradient(#ff6633,white);
+    border-radius: 10px 10px 0 0;
+    font-size: 25px;
+    padding-top: 10px;
+ }
+ span{
+    border-bottom:  dashed 2px black;
+    height: 90%;
+    width: 100%;
+ }
+
+ .Wrap-list{
+   height: 85%;
+   width: 100%;
+   border-radius: 0 0 10px 10px;
+ }
+
+ input[type="checkbox"] {
+    position: relative;
+    top: 14px;
+    float: right;
+ }
+
+ input[type="checkbox"]:checked + label {
+    text-decoration: line-through;
+    opacity: 0.3;
+ }
+ .list{
+    list-style: none;
+    color: rgba(0,0,0,0.8);
+ }
+ .list li{
+    width: 100%;
+    float: left;
+ }
+
+ label{
+    padding: 10px;
+    float: left;
+    width: 90%;
+ }
+
+ .gray{
+    background-color: rgba(0,0,50,0.1);
+ }

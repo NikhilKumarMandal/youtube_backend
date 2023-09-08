@@ -1,0 +1,16 @@
+  *{
+    margin: 0;
+    padding: 0;
+  }
+  /* navbar */
+.container{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    height: 100%;
+    width: 100%;
+}
+.h-primary h1{
+    display: flex;
+    justify-content: flex-start;
+}

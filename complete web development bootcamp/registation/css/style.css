@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+body{
+    background-color: #d5d5d5;height: 100vh;
+    font-family: 'Roboto' , sans-serif;
+}
+
+
+main{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    position: relative;
+    height: 100%;
+}
+.flex {
+    width: 100%;
+    display: flex;
+    justify-items: center;
+}
+
+
+.image-top{
+    position: absolute;
+    height: 500px;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.mockup{
+      height: 500px;
+}
+
+.form{
+    width: 100px;
+}
+
+.flex-column{
+    flex-direction: ;
+}
