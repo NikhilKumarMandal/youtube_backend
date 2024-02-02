@@ -1,7 +1,7 @@
 {
   "name": "blog",
   "version": "1.0.0",
-  "description": "making a blog application",
+  "description": "makin a blog application",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -10,6 +10,6 @@
     "javascript",
     "backend"
   ],
-  "author": "Nikhil kumar",
+  "author": "Nikhil Kumar",
   "license": "ISC"
 }
